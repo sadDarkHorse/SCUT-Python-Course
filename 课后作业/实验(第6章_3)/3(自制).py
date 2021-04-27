@@ -1,4 +1,4 @@
-string=input('请输入一个字符串：')
+string=input('请输入一个字符串:')
 stringlist=list(string)#将字符串转化为列表
 stringset=set(stringlist)#将字符串转化为集合
 stringtimesdic={}
