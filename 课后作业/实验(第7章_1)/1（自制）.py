@@ -37,6 +37,7 @@ def r_readlines():#计算文件data.txt每一行各个数的和，并输出和�
             linesum += eval(i)
         if linesum>summax:#求最大值
             summax=linesum
+    fo.close()
     print('用readlines求每行和的最大值：{}'.format(summax))
 f_write()
 f_read()
